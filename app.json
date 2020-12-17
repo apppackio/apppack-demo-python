@@ -1,0 +1,10 @@
+{
+  "buildpacks":  [{"url": "heroku/python"}],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "python -m unittest tests.py"
+      }
+    }
+  }
+}
