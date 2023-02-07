@@ -1,0 +1,10 @@
+[build]
+system = "dockerfile"
+
+[test]
+command = "python -m unittest tests.py"
+
+[services]
+
+[services.web]
+command = "gunicorn --access-logfile - --bind 0.0.0.0:$PORT --forwarded-allow-ips '*' app:app"
