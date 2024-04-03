@@ -1,5 +1,6 @@
 {
   "buildpacks":  [{"url": "heroku/python"}],
+  "stack": "heroku/builder:22",
   "environments": {
     "test": {
       "scripts": {
