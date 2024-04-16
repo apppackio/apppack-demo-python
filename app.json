@@ -1,5 +1,8 @@
 {
-  "buildpacks":  [{"url": "heroku/python"}],
+  "buildpacks":  [
+    {"url": "heroku/python"},
+    {"url": "heroku/procfile"}
+  ],
   "stack": "heroku/builder:22",
   "environments": {
     "test": {
