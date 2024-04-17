@@ -3,7 +3,7 @@
     {"url": "heroku/python"},
     {"url": "heroku/procfile"}
   ],
-  "stack": "heroku/builder:22",
+  "stack": "heroku/buildpacks:20",
   "environments": {
     "test": {
       "scripts": {
