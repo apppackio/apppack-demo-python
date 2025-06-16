@@ -1,7 +1,7 @@
 [build]
 system = "buildpack"
 buildpacks = ["heroku/python", "heroku/procfile"]
-builder = "heroku/builder:22"
+builder = "heroku/builder:24"
 
 [test]
 command = "python -m unittest tests.py"
